@@ -1,0 +1,58 @@
+/*{
+    border: 1px solid red;
+    
+}*/
+
+#header{
+    background-color: white;
+    text-align: center;
+}
+
+#body{
+    display: flex;
+    justify-content: center;
+    background-color: #EAEAEA;
+}
+
+#father{
+    width: 50%;
+}
+
+#post-dog1, #post-dog2, #post-tallarines{
+    background-color: white;
+    margin-top: 20%;
+}
+
+#title{
+    display: flex;
+}
+
+#date{
+    text-align: right;
+    margin-right: 2%;
+    color: darkgray;
+    width: 50%;
+}
+
+#date > h2{
+    font-weight: 100;
+}
+
+#title-h2{
+    margin-left: 2%;
+    width: 50%;
+}
+
+#img > img:nth-child(1) {
+    width: 100%;
+    }
+
+#text{
+    border-top: 1px solid #eaeaea;
+}
+
+#text > p{
+    padding-right: 2%;
+    padding-left: 8%;
+    padding-bottom: 3%;
+}
